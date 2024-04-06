@@ -1,0 +1,55 @@
+@import 'Reset';
+@import 'Variables';
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font;
+    background-color: $Light-grayish-blue;
+}
+
+main {
+    padding: 2rem 1.25rem;
+}
+
+.card {
+    padding: 1.25rem;
+    color: $White;
+    margin-bottom: 1.25rem;
+    border: none;
+    border-radius: .625rem;
+
+    .card__profile {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        margin-bottom: 1.25rem;
+        .card__image {
+            border: none;
+            border-radius: 50%;
+        }
+    }
+    
+}
+
+.card__purple {
+    background-color: $Moderate-violet;
+    background-image: url('../assets/images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+}
+
+.card__grayish-blue {
+    background-color: $Very-dark-grayish-blue;
+}
+
+.card__blackish-blue {
+    background-color: $Very-dark-blackish-blue;
+}
+
+.card__white {
+    background-color: $White;
+    color: $Very-dark-blackish-blue;
+}
