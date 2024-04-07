@@ -8,14 +8,19 @@ body {
     align-items: center;
     font-family: $font;
     background-color: $Light-grayish-blue;
+    font-size: 1rem;
 }
 
 main {
     padding: 2rem 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    max-width: 1350px;
 }
 
 .card {
-    padding: 1.25rem;
+    padding: 1.5rem;
     color: $White;
     margin-bottom: 1.25rem;
     border: none;
@@ -30,6 +35,24 @@ main {
             border: none;
             border-radius: 50%;
         }
+
+        .card__name {
+            font-weight: 500;
+        }
+
+        .card__graduate {
+            color: $White-50;
+        }
+    }
+
+    .card__heading {
+        margin-bottom: 1.25rem;
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+
+    .card__story {
+        color: $Light-gray;
     }
     
 }
@@ -52,4 +75,51 @@ main {
 .card__white {
     background-color: $White;
     color: $Very-dark-blackish-blue;
+
+    .card__graduate {
+        color: $Very-dark-grayish-blue !important;
+    }
+
+    .card__story {
+        color: $Very-dark-grayish-blue;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    main {
+        padding: 3rem;
+    }
+
+    .card {
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        grid-template-columns: repeat(2, auto);
+        gap: 1.25rem;
+       
+    }    
+}
+
+@media screen and (min-width: 1280px) {
+    main {
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 1.25rem;
+    }
+
+    .card__purple {
+        grid-column: 1/3;
+    }
+
+    .card__blackish-blue {
+        grid-column: 2/4;
+    }
+
+    .card__solo {
+        grid-area: 1 / 4;
+        grid-row: 1/ 3;
+    }
 }
