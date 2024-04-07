@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './Styles/App.css'
 
 function App() {
@@ -10,7 +8,7 @@ function App() {
     <main>
       <section className='card card__purple'>
         <div className='card__profile'>
-          <img src="./src/assets/images/image-daniel.jpg" alt="Daniel Clifford" className='card__image'/>
+          <img src="https://raw.githubusercontent.com/RaulTindogan/testimonials-grid-section/main/src/assets/images/image-daniel.jpg" alt="Daniel Clifford" className='card__image'/>
           <div>
             <p className='card__name'>Daniel Clifford</p>
             <p className='card__graduate'>Verified Graduate</p>    
@@ -32,7 +30,7 @@ function App() {
       </section >
       <section className='card card__grayish-blue'>
         <div className='card__profile'>
-          <img src="./src/assets/images/image-jonathan.jpg" alt="" className='card__image'/>
+          <img src="https://raw.githubusercontent.com/RaulTindogan/testimonials-grid-section/main/src/assets/images/image-jonathan.jpg" alt="" className='card__image'/>
           <div>
             <p className='card__name'>Jonathan Walters</p>
             <p className='card__graduate'>Verified Graduate</p>    
@@ -48,7 +46,7 @@ function App() {
       </section>
       <section className='card card__white'>
         <div className='card__profile'>
-          <img src="./src/assets/images/image-jeanette.jpg" alt="" className='card__image'/>
+          <img src="https://raw.githubusercontent.com/RaulTindogan/testimonials-grid-section/main/src/assets/images/image-jeanette.jpg" alt="" className='card__image'/>
           <div>
             <p className='card__name'>Jeanette Harmon</p>
             <p className='card__graduate'>Verified Graduate</p>    
@@ -64,7 +62,7 @@ function App() {
       </section>
       <section className='card card__blackish-blue'>
         <div className='card__profile'>
-          <img src="./src/assets/images/image-patrick.jpg" alt="" className='card__image'/>
+          <img src="https://raw.githubusercontent.com/RaulTindogan/testimonials-grid-section/main/src/assets/images/image-patrick.jpg" alt="" className='card__image'/>
           <div>
             <p className='card__name'>Patrick Abrams</p>
             <p className='card__graduate'>Verified Graduate</p>    
@@ -82,7 +80,7 @@ function App() {
       </section>
       <section className='card card__white card__solo'>
           <div className='card__profile'>
-            <img src="./src/assets/images/image-kira.jpg" alt="" className='card__image'/>
+            <img src="https://raw.githubusercontent.com/RaulTindogan/testimonials-grid-section/main/src/assets/images/image-kira.jpg" alt="" className='card__image'/>
             <div>
               <p className='card__name'>Kira Whittle</p>
               <p className='card__graduate'>Verified Graduate</p>    
